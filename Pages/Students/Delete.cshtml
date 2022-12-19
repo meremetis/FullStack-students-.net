@@ -1,0 +1,9 @@
+﻿@page
+@model SevStudentsApp.Pages.Students.DeleteModel
+@{
+}
+<h2>Delete Student</h2>
+@if (!Model.errorMessage.Equals(""))
+{
+    <h2><strong>@Model.errorMessage</strong></h2>
+}
